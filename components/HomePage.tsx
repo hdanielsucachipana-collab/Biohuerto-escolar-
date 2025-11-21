@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Page } from '../types';
 import { SproutIcon, SeedlingIcon, PlantIcon } from './Icons';
@@ -37,7 +38,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
         <div className="absolute inset-0 bg-brand-dark-green/60"></div>
         <div className="relative z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight font-display">
-            KANSAY CHAKANA
+            KAWSAY CHAKANA
           </h1>
           <p className="text-xl md:text-2xl mt-4 text-brand-sand italic">
             Biohuerto Escolar: Un puente entre la vida y la sabiduría ancestral.
@@ -48,7 +49,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
       <section className="text-center mb-12">
         <h2 className="text-3xl font-bold text-brand-green mb-4 font-display">Bienvenidos a Nuestro Espacio Verde</h2>
         <p className="max-w-3xl mx-auto text-lg text-brand-dark-green">
-          Kansay Chakana (Puente Viviente en quechua) es más que un biohuerto. Es un aula viva donde aprendemos de la Pachamama, reconectamos con nuestras raíces y cultivamos un futuro más sostenible para nuestra comunidad del Glorioso Colegio Nacional de Ciencias.
+          Kawsay Chakana (Puente Viviente en quechua) es más que un biohuerto. Es un aula viva donde aprendemos de la Pachamama, reconectamos con nuestras raíces y cultivamos un futuro más sostenible para nuestra comunidad del Glorioso Colegio Nacional de Ciencias.
         </p>
       </section>
 
@@ -59,7 +60,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
           description="Explora el progreso de nuestro biohuerto, descubre las especies que cultivamos y celebra nuestros logros." 
           buttonText="Ver Bitácora"
           onClick={() => setCurrentPage('logbook')}
-          imageUrl="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=2070&auto=format&fit=crop"
+          imageUrl="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=2070&auto=format&fit=crop"
         />
         <InfoCard 
           icon={<SeedlingIcon />} 
@@ -67,7 +68,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
           description="¿Apasionado por el medio ambiente? Postula para ser un Guardián Ambiental y sé parte del cambio." 
           buttonText="Postular Ahora"
           onClick={() => setCurrentPage('join')}
-          imageUrl="https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?q=80&w=2070&auto=format&fit=crop"
+          imageUrl="https://images.unsplash.com/photo-1529390003868-6c640a174baa?q=80&w=2070&auto=format&fit=crop"
         />
         <InfoCard 
           icon={<PlantIcon />} 

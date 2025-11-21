@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Page } from '../types';
 import { SproutIcon, MenuIcon, XIcon } from './Icons';
@@ -43,7 +44,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage }) => {
           <div className="flex items-center">
             <div className="flex-shrink-0 text-brand-sand flex items-center gap-2">
               <SproutIcon />
-              <span className="font-bold text-lg font-display">Kansay Chakana</span>
+              <span className="font-bold text-lg font-display">Kawsay Chakana</span>
             </div>
           </div>
           <div className="hidden md:block">
